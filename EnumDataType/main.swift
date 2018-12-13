@@ -8,5 +8,18 @@
 
 import Foundation
 
-print("Hello, World!")
+
+enum days{
+    case Mon
+    case Tue
+    case Fri
+}
+
+
+let d1:days = .Mon
+var d2 = days.Tue
+
+print(d1)
+print(d2)
+
 
